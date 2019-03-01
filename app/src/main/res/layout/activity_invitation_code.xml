@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".login.InvitationCodeActivity">
+    <include android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/templatenavigationbarreturn2"></include>
+    <com.mdb.example.administrator.Utils.VerifyCodeView
+        android:id="@+id/verify_code_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+    </com.mdb.example.administrator.Utils.VerifyCodeView>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="@dimen/y200"-->
+        <!--android:padding="@dimen/y20"-->
+        <!--android:orientation="horizontal">-->
+        <!--<EditText-->
+            <!--android:id="@+id/edt1"-->
+            <!--android:layout_width="@dimen/y120"-->
+            <!--android:layout_height="@dimen/y120"-->
+            <!--android:layout_marginRight="@dimen/y20"-->
+            <!--android:gravity="center"-->
+            <!--android:maxLength="1"-->
+            <!--android:longClickable="false"-->
+            <!--android:background="@mipmap/baikuang"-->
+            <!--android:textSize="16sp"/>-->
+        <!--<EditText-->
+            <!--android:id="@+id/edt2"-->
+            <!--android:layout_width="@dimen/y120"-->
+            <!--android:layout_height="@dimen/y120"-->
+            <!--android:layout_marginRight="@dimen/y20"-->
+            <!--android:gravity="center"-->
+            <!--android:maxLength="1"-->
+            <!--android:background="@mipmap/baikuang"-->
+            <!--android:textSize="16sp"/>-->
+
+        <!--<EditText-->
+            <!--android:layout_width="@dimen/y120"-->
+            <!--android:layout_height="@dimen/y120"-->
+            <!--android:layout_marginRight="@dimen/y20"-->
+            <!--android:gravity="center"-->
+            <!--android:maxLength="1"-->
+            <!--android:background="@mipmap/baikuang"-->
+            <!--android:textSize="16sp"/>-->
+
+        <!--<EditText-->
+            <!--android:layout_width="@dimen/y120"-->
+            <!--android:layout_height="@dimen/y120"-->
+            <!--android:layout_marginRight="@dimen/y20"-->
+            <!--android:gravity="center"-->
+            <!--android:maxLength="1"-->
+            <!--android:background="@mipmap/baikuang"-->
+            <!--android:textSize="16sp"/>-->
+
+        <!--<EditText-->
+            <!--android:layout_width="@dimen/y120"-->
+            <!--android:layout_height="@dimen/y120"-->
+            <!--android:layout_marginRight="@dimen/y20"-->
+            <!--android:gravity="center"-->
+            <!--android:maxLength="1"-->
+            <!--android:background="@mipmap/baikuang"-->
+            <!--android:textSize="16sp"/>-->
+
+        <!--<EditText-->
+            <!--android:layout_width="@dimen/y120"-->
+            <!--android:layout_height="@dimen/y120"-->
+            <!--android:gravity="center"-->
+            <!--android:maxLength="1"-->
+            <!--android:background="@mipmap/baikuang"-->
+            <!--android:textSize="16sp"/>-->
+    <!--</LinearLayout>-->
+    <TextView
+        android:id="@+id/yqm_yaoqingma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="请输入您的邀请码"
+        android:textColor="@color/xuanzhong"/>
+
+
+    <Button
+        android:id="@+id/code_next"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="200dp"
+        android:text="完成"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:background="@mipmap/buttons"/>
+</LinearLayout>

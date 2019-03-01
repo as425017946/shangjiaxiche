@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".wode.EdidHeadImageActivity">
+    <ImageView
+        android:id="@+id/bianji_imgfanhui"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="@dimen/y20"
+        android:layout_marginTop="@dimen/y20"
+        android:src="@mipmap/returns"/>
+    <ImageView
+        android:layout_marginTop="@dimen/y240"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y460"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ceshi"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/y100"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:layout_width="@dimen/y200"
+            android:layout_height="@dimen/y100"
+            android:background="@drawable/filletbutton"
+            android:text="更换头像"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+</LinearLayout>
